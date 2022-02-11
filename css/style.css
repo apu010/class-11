@@ -1,0 +1,355 @@
+*{
+    margin:0;
+    padding: 0;
+    background: rgb(231, 231, 231);
+    top: 0;
+    left: 0;
+    right: 0;
+}
+header{
+    margin-left: 40px;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    display: flex;
+    z-index: 999;
+    padding: 0.5rem 1rem;
+}
+header .logo{
+    font-size: 20px;
+    color: rgb(173, 86, 4);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 20px;
+}
+header .navbar{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+header .navbar a span{
+    color: rgb(170, 69, 2);
+    margin-left: 50px;
+}
+header .navbar .color1{
+    color: rgb(170, 69, 2);
+    text-transform: uppercase;
+}
+header .navbar a{
+    text-decoration: none;
+    display: block;
+    text-transform: uppercase;
+    padding: 10px;
+    color: rgb(0, 160, 0);
+    font-weight: bolder;
+    font-size: 20px;
+}
+.header-banner{
+    margin-top: 100px;
+    margin-left: 55px;
+    margin-right: 55px;
+    text-align: center;
+    background: green;
+    height: 400px;
+    box-shadow: 1px 11px 18px -5px rgba(0,0,0,0.61);
+}
+.header-banner .heading1{
+    margin-top: 200px;
+    position: absolute;
+    background: none;
+    font-size: 60px;
+    color: white;
+    padding: 20px;
+}
+.container{
+    display: flex;
+    margin-bottom: 20px;
+}
+.container .box1{
+    border: 2px none black;
+    height: 200px;
+    width: 17.8%;
+    margin-left: 55px;
+    margin-top: 40px;
+    padding: 20px;
+    background: rgb(209, 136, 0);
+}
+.container h2{
+    background: rgb(209, 136, 0);
+}
+.row1{
+    height: 120px;
+    width: 100px;
+    border: 5px solid whitesmoke;
+    margin-left: 130px;
+    margin-top: 50px;
+    background: lightblue;
+}
+.row1 h3{
+    background: lightblue;
+    font-size: 30px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 10px;
+}
+.container .box2{
+    border: 2px none black;
+    height: 200px;
+    width: 17.8%;
+    margin-left: 55px;
+    margin-top: 40px;
+    padding: 20px;
+    background: rgb(255, 203, 32);
+}
+.container .box2 h2{
+   background: rgb(255, 203, 32);
+}
+.container .box3{
+    border: 2px none black;
+    height: 200px;
+    width: 17.8%;
+    margin-left: 55px;
+    margin-top: 40px;
+    padding: 20px;
+    background: rgb(71, 226, 71);
+}
+.container .box3 h2{
+    background: rgb(71, 226, 71);
+}
+.container .box4{
+    border: 2px none black;
+    height: 200px;
+    width: 17.8%;
+    margin-left: 55px;
+    margin-top: 40px;
+    padding: 20px;
+    background: yellowgreen;
+}
+.container .box4 h2{
+    background: yellowgreen;
+}
+.contant{
+    display: flex;
+    margin-left: 55px;
+}
+.contant .box5{
+    height: 440px;
+    width: 266px;
+    border: 3px none black;
+    padding: 20px;
+    background: rgb(202, 255, 202);
+}
+.row5{
+    height:50px ;
+    width: 100%;
+    margin-bottom: 5px;
+    background: rgb(0, 173, 0);
+}
+.row5 .side1 h4{
+    font-size: 30px;
+    text-align: center;
+}
+.row6{
+    height:50px ;
+    width: 100%;
+    margin-bottom: 5px;
+    background: rgb(0, 173, 0);
+}
+.row6 .side2 h4{
+    font-size: 30px;
+    text-align: center;
+}
+.row7{
+    height:50px ;
+    width: 100%;
+    margin-bottom: 5px;
+    background: rgb(0, 173, 0);
+}
+.row7 .side3 h4{
+    font-size: 30px;
+    text-align: center;
+}
+.row8{
+    height:50px ;
+    width: 100%;
+    margin-bottom: 5px;
+    background: rgb(0, 173, 0);
+}
+.row8 .side4 h4{
+    font-size: 30px;
+    text-align: center;
+}
+.row9{
+    height:50px ;
+    width: 100%;
+    margin-bottom: 5px;
+    background: rgb(0, 173, 0);
+}
+.row9 .side5 h4{
+    font-size: 30px;
+    text-align: center;
+}
+.row10{
+    height:50px ;
+    width: 100%;
+    margin-bottom: 5px;
+    background: rgb(0, 173, 0);
+}
+.row10 .side6 h4{
+    font-size: 30px;
+    text-align: center;
+}
+.row11{
+    height:50px ;
+    width: 100%;
+    margin-bottom: 5px;
+    background: rgb(0, 173, 0);
+}
+.row11 .side7 h4{
+    font-size: 30px;
+    text-align: center;
+}
+.row12{
+    height:50px ;
+    width: 100%;
+    margin-bottom: 5px;
+    background: rgb(0, 173, 0);
+}
+.row12 .side8 h4{
+    font-size: 30px;
+    text-align: center;
+}
+.row5 .side1{
+    height: 100%;
+    width: 15%;
+    background: rgb(10, 85, 0);
+}
+.row6 .side2{
+    height: 100%;
+    width: 15%;
+    background: rgb(10, 85, 0);
+}
+.row7 .side3{
+    height: 100%;
+    width: 15%;
+    background: rgb(10, 85, 0);
+}
+.row8 .side4{
+    height: 100%;
+    width: 15%;
+    background: rgb(10, 85, 0);
+}
+.row9 .side5{
+    height: 100%;
+    width: 15%;
+    background: rgb(10, 85, 0);
+}
+.row10 .side6{
+    height: 100%;
+    width: 15%;
+    background: rgb(10, 85, 0);
+}
+.row11 .side7{
+    height: 100%;
+    width: 15%;
+    background: rgb(10, 85, 0);
+}
+.row12 .side8{
+    height: 100%;
+    width: 15%;
+    background: rgb(10, 85, 0);
+}
+.contant .box6{
+    border: 2px none black;
+    height: 550px;
+    width: 675px;
+    margin-left: 60px;
+}
+.row13{
+    height: 50px;
+    width: 100%;
+    background:green;
+    
+}
+.row13 h3{
+    background: green;
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 30px;
+    padding: 7.5px;
+}
+.contant .box6 .row14{
+    height: 731px;
+    width:100%;
+    background: lightgray; 
+}
+.box6 .row14 h3{
+    color: black;
+    text-transform: capitalize;
+    text-align: left;
+    font-size: 30px;
+    background:none;
+    padding: 20px;
+}
+.row14 p{
+    background: none;
+    padding: 20px;
+    margin-top: -30px;
+    text-align: justify;
+}
+.contant .box7{
+    height: 781px;
+    width: 308.5px;
+    border: 2px none black;
+    margin-left: 57px;
+    background: lightgray;
+}
+.rightbox1{
+    width: 100%;
+    height: 50px;
+    border: 2px none black;
+    background: green;
+}
+.rightbox1 h2{
+    background: none;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+footer{
+    height: 200px;
+    width: 100%;
+    background: green;
+    margin-top: 30px;
+}
+footer h1{
+    background: none;
+    text-align: center;
+    color: white;
+    padding: 80px;
+    text-transform: capitalize;
+}
+.contant .leftbox1{
+    height: 275px;
+    width: 305px;
+    border: 2px none black;
+    margin-top: 50px;
+    margin-left: -20px;
+    background: lightgray;
+}
+.contant .leftbox1 .lbox1{
+    background: green;
+    height: 50px;
+    width: 100%;
+}
+.contant .leftbox1 .lbox1 h2{
+    background: none;
+    text-align: center;
+    padding: 10px;
+}
