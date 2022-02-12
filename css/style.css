@@ -303,37 +303,61 @@ header .navbar a{
     margin-top: -30px;
     text-align: justify;
 }
-.contant .box7{
+.rightbox{
     height: 781px;
-    width: 308.5px;
+    width: 307px;
     border: 2px none black;
-    margin-left: 57px;
+    margin-left: 55px;
+}
+.rightbox .box7{
+    height: 30%;
+    width: 100%;
+    background: lightgray;
+    margin-bottom: 12.5%;
+}
+.rightbox .box7 .r1{
+    height: 18%;
+    width: 100%;
+    background: green;
+}
+.rightbox .box7 .r1 h2{
+    background: none;
+    text-align: center;
+    color: wheat;
+    padding: 6px;
+}
+.rightbox .box8{
+    height: 30%;
+    width: 100%;
+    background: lightgray;
+    margin-bottom: 12.5%;
+}
+.rightbox .box8 .r1{
+    height: 18%;
+    width: 100%;
+    background: green;
+}
+.rightbox .box8 .r1 h2{
+    background: none;
+    text-align: center;
+    color: wheat;
+    padding: 6px;
+}
+.rightbox .box9{
+    height: 30%;
+    width: 100%;
     background: lightgray;
 }
-.rightbox1{
-    width: 100%;
-    height: 50px;
-    border: 2px none black;
-    background: green;
-}
-.rightbox1 h2{
-    background: none;
-    text-align: center;
-    color: white;
-    padding: 10px;
-}
-footer{
-    height: 200px;
+.rightbox .box9 .r1{
+    height: 18%;
     width: 100%;
     background: green;
-    margin-top: 30px;
 }
-footer h1{
+.rightbox .box9 .r1 h2{
     background: none;
     text-align: center;
-    color: white;
-    padding: 80px;
-    text-transform: capitalize;
+    color: wheat;
+    padding: 6px;
 }
 .contant .leftbox1{
     height: 275px;
