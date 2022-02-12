@@ -136,6 +136,7 @@ header .navbar a{
 .contant{
     display: flex;
     margin-left: 55px;
+    margin-bottom: 20px;
 }
 .contant .box5{
     height: 440px;
@@ -376,4 +377,17 @@ header .navbar a{
     background: none;
     text-align: center;
     padding: 10px;
+}
+footer{
+    height: 200px;
+    width: 100%;
+    background: green;
+}
+footer h3{
+    font-size: 30px;
+    text-align: center;
+    padding: 80px;
+    background: none;
+    color: white;
+    text-transform: uppercase;
 }
